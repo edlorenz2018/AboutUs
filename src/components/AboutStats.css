@@ -155,7 +155,11 @@
 .mvv-card:hover{
   width:420px; /* wider expansion */
   background: rgba(255,255,255,0.15);
-  
+   background-image: url("../assets/background1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* VERTICAL TITLE */
@@ -192,6 +196,7 @@
 .mvv-content p{
   font-size:16px;
   line-height:1.7;
+  text-align: justify;
   color:white;
 }
 
@@ -236,4 +241,93 @@
     padding:25px;
   }
 
+}
+/* ================= TEAM 2 SECTION ================= */
+
+.team2-section{
+  margin-top:50px;
+  padding:40px 20px;
+  text-align:center;
+}
+
+/* PHRASE */
+.team2-phrase{
+  max-width:750px;
+  margin:auto;
+  font-size:25px;
+  line-height:1.6;
+  margin-bottom:70px;
+  color:#ffffff;
+}
+
+/* GRID */
+.team2-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px;
+  max-width:1200px;
+  margin:auto;
+}
+
+/* CARD */
+.team2-card{
+  position:relative;
+  padding:30px;
+  border-radius:18px;
+  background:#050505;
+
+  border:1px solid rgba(255,255,255,0.08);
+
+  text-align:left;
+  color:white;
+
+  transition:0.4s;
+}
+
+/* CARD HOVER */
+.team2-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* NAME */
+.team2-card h3{
+  font-size:20px;
+  margin-bottom:8px;
+}
+
+/* ROLE */
+.team2-role{
+  font-size:14px;
+  color:#bbb;
+  margin-bottom:10px;
+}
+
+/* DESCRIPTION */
+.team2-desc{
+  font-size:14px;
+  line-height:1.6;
+  color:#aaa;
+  margin-bottom:30px;
+}
+
+/* AVATAR */
+.team2-avatar{
+  display:flex;
+  justify-content:center;
+}
+
+.team2-avatar img{
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid #222;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .team2-grid{
+    grid-template-columns:1fr;
+  }
 }
