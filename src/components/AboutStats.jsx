@@ -217,13 +217,13 @@ function AboutStats() {
     </div>
     <div className="team-card">
       <img src={HEAD} alt="Engineer" />
-      <h4>Mario L. Aparis</h4>
-      <p>TECHNICAL HEAD</p>
+      <h4>Ed Lorenz N. Villarasa</h4>
+      <p>IT Intern/ Website Developer</p>
     </div>
     <div className="team-card">
       <img src={HEAD} alt="Engineer" />
-      <h4>Mario L. Aparis</h4>
-      <p>TECHNICAL HEAD</p>
+      <h4>Joel Janzel Babon</h4>
+      <p>IT Intern/Website Developer</p>
     </div>
 
   </div>
